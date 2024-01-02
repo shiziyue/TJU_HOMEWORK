@@ -1,0 +1,5 @@
+00001 homework1 classroom1 dorm 100 2022-4-8 001
+00002 duolanjian xiagu aiouniya 450 2022-4-9 002
+00003 zhuyuandanchaofan dininghall dorm 14 2022-5-9 004
+00004 qwq qaq QAQ 12345 2022-4-12 003
+00005 yuyuchi home1 school 100 2022-4-12 005

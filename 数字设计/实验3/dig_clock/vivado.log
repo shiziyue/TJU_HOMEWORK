@@ -1,0 +1,25 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Thu Jun  2 21:54:31 2022
+# Process ID: 20092
+# Current directory: C:/Users/Ziyueshi/Desktop/大二下/数字设计/实验3/dig_clock
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent9868 C:\Users\Ziyueshi\Desktop\大二下\数字设计\实验3\dig_clock\dig_clock.xpr
+# Log file: C:/Users/Ziyueshi/Desktop/大二下/数字设计/实验3/dig_clock/vivado.log
+# Journal file: C:/Users/Ziyueshi/Desktop/大二下/数字设计/实验3/dig_clock\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Ziyueshi/Desktop/大二下/数字设计/实验3/dig_clock/dig_clock.xpr
+INFO: [Project 1-313] Project file moved from 'D:/Huawei Share/dig_clock' since last save.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/Ziyueshi/Desktop/大二下/数字设计/实验3/dig_clock/dig_clock_tb_behav.wcfg', nor could it be found using path 'D:/Huawei Share/dig_clock/dig_clock_tb_behav.wcfg'.
+Scanning sources...
+Finished scanning sources
+WARNING: [filemgmt 56-2] impl_1 strategy "Vivado Implementation Defaults," step write_bitstream, attribute : Could not find the file 'C:/Users/Ziyueshi/Desktop/大二下/数字设计/实验3/1.tcl', nor could it be found using path 'D:/Huawei Share/1.tcl'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Ziyueshi/Desktop/大二下/数字设计/实验3/dig_clock/bin2bcd'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Vivado/2018.2/data/ip'.
+open_project: Time (s): cpu = 00:00:09 ; elapsed = 00:00:05 . Memory (MB): peak = 766.324 ; gain = 88.953
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Jun  2 21:55:14 2022...

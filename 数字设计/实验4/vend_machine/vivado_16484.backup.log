@@ -1,0 +1,172 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Fri Jun  3 09:16:40 2022
+# Process ID: 16484
+# Current directory: C:/Users/Ziyueshi/vivado/vend_machine
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent8628 C:\Users\Ziyueshi\vivado\vend_machine\vend_machine.xpr
+# Log file: C:/Users/Ziyueshi/vivado/vend_machine/vivado.log
+# Journal file: C:/Users/Ziyueshi/vivado/vend_machine\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Ziyueshi/vivado/vend_machine/vend_machine.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Ziyueshi/vivado/vend_machine/bin2bcd'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Vivado/2018.2/data/ip'.
+open_project: Time (s): cpu = 00:00:09 ; elapsed = 00:00:05 . Memory (MB): peak = 819.785 ; gain = 111.586
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+close [ open C:/Users/Ziyueshi/vivado/vend_machine/vend_machine.srcs/sources_1/new/x7seg.sv w ]
+add_files C:/Users/Ziyueshi/vivado/vend_machine/vend_machine.srcs/sources_1/new/x7seg.sv
+update_compile_order -fileset sources_1
+close [ open C:/Users/Ziyueshi/vivado/vend_machine/vend_machine.srcs/sources_1/new/Enableclock.sv w ]
+add_files C:/Users/Ziyueshi/vivado/vend_machine/vend_machine.srcs/sources_1/new/Enableclock.sv
+update_compile_order -fileset sources_1
+close [ open C:/Users/Ziyueshi/vivado/vend_machine/vend_machine.srcs/sources_1/new/Countdown.sv w ]
+add_files C:/Users/Ziyueshi/vivado/vend_machine/vend_machine.srcs/sources_1/new/Countdown.sv
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open C:/Users/Ziyueshi/vivado/vend_machine/vend_machine.srcs/sim_1/new/vend_tb.sv w ]
+add_files -fileset sim_1 C:/Users/Ziyueshi/vivado/vend_machine/vend_machine.srcs/sim_1/new/vend_tb.sv
+update_compile_order -fileset sim_1
+launch_simulation
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Ziyueshi/vivado/vend_machine/vend_machine.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'D:/Vivado/2018.2/data/xsim/xsim.ini' copied to run dir:'C:/Users/Ziyueshi/vivado/vend_machine/vend_machine.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'vend_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Ziyueshi/vivado/vend_machine/vend_machine.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj vend_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Ziyueshi/vivado/vend_machine/vend_machine.srcs/sources_1/ip/bin2bcd_0/bin2bcd.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bin2bcd
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Ziyueshi/vivado/vend_machine/vend_machine.srcs/sources_1/ip/bin2bcd_0/sim/bin2bcd_0.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bin2bcd_0
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Ziyueshi/vivado/vend_machine/vend_machine.srcs/sources_1/new/Countdown.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Countdown
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Ziyueshi/vivado/vend_machine/vend_machine.srcs/sources_1/new/D.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module D
+WARNING: [VRFC 10-1315] redeclaration of ansi port Q is not allowed [C:/Users/Ziyueshi/vivado/vend_machine/vend_machine.srcs/sources_1/new/D.sv:28]
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Ziyueshi/vivado/vend_machine/vend_machine.srcs/sources_1/new/Edge_Test.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Edge_Test
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Ziyueshi/vivado/vend_machine/vend_machine.srcs/sources_1/new/Enableclock.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Enableclock
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Ziyueshi/vivado/vend_machine/vend_machine.srcs/sources_1/new/Stater.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Stater
+INFO: [VRFC 10-2458] undeclared symbol C5, assumed default net type wire [C:/Users/Ziyueshi/vivado/vend_machine/vend_machine.srcs/sources_1/new/Stater.sv:30]
+INFO: [VRFC 10-2458] undeclared symbol C10, assumed default net type wire [C:/Users/Ziyueshi/vivado/vend_machine/vend_machine.srcs/sources_1/new/Stater.sv:31]
+WARNING: [VRFC 10-1315] redeclaration of ansi port open is not allowed [C:/Users/Ziyueshi/vivado/vend_machine/vend_machine.srcs/sources_1/new/Stater.sv:59]
+ERROR: [VRFC 10-39] event control in always_comb/always_latch is not allowed [C:/Users/Ziyueshi/vivado/vend_machine/vend_machine.srcs/sources_1/new/Stater.sv:37]
+ERROR: [VRFC 10-2787] module Stater ignored due to previous errors [C:/Users/Ziyueshi/vivado/vend_machine/vend_machine.srcs/sources_1/new/Stater.sv:23]
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/Ziyueshi/vivado/vend_machine/vend_machine.sim/sim_1/behav/xsim/xvlog.log'
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'C:/Users/Ziyueshi/vivado/vend_machine/vend_machine.sim/sim_1/behav/xsim/xvlog.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+update_compile_order -fileset sim_1
+reset_run synth_1
+launch_simulation
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/Ziyueshi/vivado/vend_machine/vend_machine.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'D:/Vivado/2018.2/data/xsim/xsim.ini' copied to run dir:'C:/Users/Ziyueshi/vivado/vend_machine/vend_machine.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'vend_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/Ziyueshi/vivado/vend_machine/vend_machine.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj vend_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Ziyueshi/vivado/vend_machine/vend_machine.srcs/sources_1/ip/bin2bcd_0/bin2bcd.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bin2bcd
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Ziyueshi/vivado/vend_machine/vend_machine.srcs/sources_1/ip/bin2bcd_0/sim/bin2bcd_0.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bin2bcd_0
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Ziyueshi/vivado/vend_machine/vend_machine.srcs/sources_1/new/Countdown.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Countdown
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Ziyueshi/vivado/vend_machine/vend_machine.srcs/sources_1/new/D.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module D
+WARNING: [VRFC 10-1315] redeclaration of ansi port Q is not allowed [C:/Users/Ziyueshi/vivado/vend_machine/vend_machine.srcs/sources_1/new/D.sv:28]
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Ziyueshi/vivado/vend_machine/vend_machine.srcs/sources_1/new/Edge_Test.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Edge_Test
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Ziyueshi/vivado/vend_machine/vend_machine.srcs/sources_1/new/Enableclock.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Enableclock
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Ziyueshi/vivado/vend_machine/vend_machine.srcs/sources_1/new/Stater.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Stater
+WARNING: [VRFC 10-1315] redeclaration of ansi port open is not allowed [C:/Users/Ziyueshi/vivado/vend_machine/vend_machine.srcs/sources_1/new/Stater.sv:60]
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Ziyueshi/vivado/vend_machine/vend_machine.srcs/sources_1/new/vend.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module vend
+INFO: [VRFC 10-2458] undeclared symbol an_to_g, assumed default net type wire [C:/Users/Ziyueshi/vivado/vend_machine/vend_machine.srcs/sources_1/new/vend.sv:13]
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Ziyueshi/vivado/vend_machine/vend_machine.srcs/sources_1/new/x7seg.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module x7seg
+WARNING: [VRFC 10-1315] redeclaration of ansi port open is not allowed [C:/Users/Ziyueshi/vivado/vend_machine/vend_machine.srcs/sources_1/new/x7seg.sv:38]
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Ziyueshi/vivado/vend_machine/vend_machine.srcs/sim_1/new/vend_tb.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module vend_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Ziyueshi/vivado/vend_machine/vend_machine.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/Ziyueshi/vivado/vend_machine/vend_machine.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 4759c74710314b46925fb7d38686124c --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot vend_tb_behav xil_defaultlib.vend_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 1 differs from formal bit length 8 for port an_to_g [C:/Users/Ziyueshi/vivado/vend_machine/vend_machine.srcs/sources_1/new/vend.sv:13]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.D
+Compiling module xil_defaultlib.Edge_Test
+Compiling module xil_defaultlib.bin2bcd
+Compiling module xil_defaultlib.bin2bcd_0
+Compiling module xil_defaultlib.Stater
+Compiling module xil_defaultlib.Enableclock
+Compiling module xil_defaultlib.Countdown
+Compiling module xil_defaultlib.x7seg
+Compiling module xil_defaultlib.vend
+Compiling module xil_defaultlib.vend_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot vend_tb_behav
+
+****** Webtalk v2018.2 (64-bit)
+  **** SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+  **** IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/Ziyueshi/vivado/vend_machine/vend_machine.sim/sim_1/behav/xsim/xsim.dir/vend_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Fri Jun  3 10:20:53 2022...
+INFO: [USF-XSim-69] 'elaborate' step finished in '5' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/Ziyueshi/vivado/vend_machine/vend_machine.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "vend_tb_behav -key {Behavioral:sim_1:Functional:vend_tb} -tclbatch {vend_tb.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+source vend_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'vend_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:05 ; elapsed = 00:00:09 . Memory (MB): peak = 916.617 ; gain = 22.441
+run all
+run: Time (s): cpu = 00:00:39 ; elapsed = 00:00:34 . Memory (MB): peak = 918.793 ; gain = 2.176
+run all

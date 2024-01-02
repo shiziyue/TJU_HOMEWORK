@@ -1,0 +1,55 @@
+the number of messages to simulate: 4
+packet loss probability: 0.300000
+packet corruption probability: 0.000000
+average time between messages from sender's layer5: 100.000000
+TRACE: 2
+
+EVENT time: 76.168999,  type: 1, fromlayer5  entity: 0
+  A_output 成功发送包,并开始记时: aaaaaaaaaaaaaaaaaaa
+
+EVENT time: 82.418297,  type: 2, fromlayer3  entity: 1
+  B_input 接收到包aaaaaaaaaaaaaaaaaaa
+  B_input 发送ACK
+
+EVENT time: 90.098885,  type: 2, fromlayer3  entity: 0
+  A_input 接到ACK,解除停等,等待上层调用
+
+EVENT time: 270.719482,  type: 1, fromlayer5  entity: 0
+  A_output 成功发送包,并开始记时: bbbbbbbbbbbbbbbbbbb
+
+EVENT time: 274.011780,  type: 2, fromlayer3  entity: 1
+  B_input 接收到包bbbbbbbbbbbbbbbbbbb
+  B_input 发送ACK
+
+EVENT time: 275.457733,  type: 2, fromlayer3  entity: 0
+  A_input 接到ACK,解除停等,等待上层调用
+
+EVENT time: 279.667725,  type: 1, fromlayer5  entity: 0
+  A_output 成功发送包,并开始记时: ccccccccccccccccccc
+
+EVENT time: 286.456818,  type: 2, fromlayer3  entity: 1
+  B_input 接收到包ccccccccccccccccccc
+  B_input 发送ACK
+          TOLAYER3: packet being lost
+
+EVENT time: 334.667725,  type: 0, timerinterrupt   entity: 0
+  A_timerinterrupt timeout 将重新发送 并开始计时: ccccccccccccccccccc.
+          TOLAYER3: packet being lost
+
+EVENT time: 373.607361,  type: 1, fromlayer5  entity: 0
+  A_output 还未收到ACK,丢掉: ddddddddddddddddddd
+
+EVENT time: 389.667725,  type: 0, timerinterrupt   entity: 0
+  A_timerinterrupt timeout 将重新发送 并开始计时: ccccccccccccccccccc.
+          TOLAYER3: packet being lost
+
+EVENT time: 444.667725,  type: 0, timerinterrupt   entity: 0
+  A_timerinterrupt timeout 将重新发送 并开始计时: ccccccccccccccccccc.
+
+EVENT time: 446.152618,  type: 2, fromlayer3  entity: 1
+  B_input 序号错误 将发送NCK
+
+EVENT time: 453.453522,  type: 2, fromlayer3  entity: 0
+  A_input 接到ACK,解除停等,等待上层调用
+ Simulator terminated at time 453.453522
+ after sending 4 msgs from layer5

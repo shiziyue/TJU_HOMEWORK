@@ -1,0 +1,291 @@
+Enter TRACE:2
+        初始化node0==rtinit0
+                via
+   D0 |    1     2    3
+  ----|-----------------
+     1|    0   999   999
+dest 2|  999     0   999
+     3|  999   999     0
+        初始化node1==rtinit1
+             via
+   D1 |    0     2
+  ----|-----------
+     0|    0   999
+dest 2|  999     0
+     3|  999   999
+        初始化node2==rtinit2
+                via
+   D2 |    0     1    3
+  ----|-----------------
+     0|    0   999   999
+dest 1|  999     0   999
+     3|  999   999     0
+        初始化node3==rtinit3
+             via
+   D3 |    0     2
+  ----|-----------
+     0|    0   999
+dest 1|  999   999
+     2|  999     0
+MAIN: rcv event, t=0.094, at 1 src: 0, dest: 1, contents:   0   1   3   7
+        更新node1==rtupdate1
+             via
+   D1 |    0     2
+  ----|-----------
+     0|    1   999
+dest 2|    4     0
+     3|    8   999
+MAIN: rcv event, t=0.427, at 1 src: 2, dest: 1, contents:   3   1   0   2
+        更新node1==rtupdate1
+             via
+   D1 |    0     2
+  ----|-----------
+     0|    1     4
+dest 2|    4     1
+     3|    8     3
+MAIN: rcv event, t=0.998, at 0 src: 1, dest: 0, contents:   1   0   1 999
+        更新node0==rtupdate0
+                via
+   D0 |    1     2    3
+  ----|-----------------
+     1|    1   999   999
+dest 2|    2     0   999
+     3|  999   999     0
+MAIN: rcv event, t=1.244, at 3 src: 0, dest: 3, contents:   0   1   3   7
+        更新node3==rtupdate3
+             via
+   D3 |    0     2
+  ----|-----------
+     0|    7   999
+dest 1|    8   999
+     2|   10     0
+MAIN: rcv event, t=1.514, at 2 src: 0, dest: 2, contents:   0   1   3   7
+        未改变node2==rtupdate2
+                via
+   D2 |    0     1    3
+  ----|-----------------
+     0|    3   999   999
+dest 1|    4     0   999
+     3|   10   999     0
+MAIN: rcv event, t=1.685, at 0 src: 2, dest: 0, contents:   3   1   0   2
+        更新node0==rtupdate0
+                via
+   D0 |    1     2    3
+  ----|-----------------
+     1|    1     4   999
+dest 2|    2     3   999
+     3|  999     5     0
+MAIN: rcv event, t=2.171, at 3 src: 2, dest: 3, contents:   3   1   0   2
+        更新node3==rtupdate3
+             via
+   D3 |    0     2
+  ----|-----------
+     0|    7     5
+dest 1|    8     3
+     2|   10     2
+MAIN: rcv event, t=2.399, at 0 src: 3, dest: 0, contents:   7 999   2   0
+        未改变node0==rtupdate0
+                via
+   D0 |    1     2    3
+  ----|-----------------
+     1|    1     4   999
+dest 2|    2     3     9
+     3|  999     5     7
+MAIN: rcv event, t=2.489, at 0 src: 1, dest: 0, contents:   1   0   1   8
+        未改变node0==rtupdate0
+                via
+   D0 |    1     2    3
+  ----|-----------------
+     1|    1     4   999
+dest 2|    2     3     9
+     3|    9     5     7
+MAIN: rcv event, t=2.667, at 2 src: 1, dest: 2, contents:   1   0   1 999
+        更新node2==rtupdate2
+                via
+   D2 |    0     1    3
+  ----|-----------------
+     0|    3     2   999
+dest 1|    4     1   999
+     3|   10   999     0
+MAIN: rcv event, t=2.823, at 1 src: 0, dest: 1, contents:   0   1   2   7
+        未改变node1==rtupdate1
+             via
+   D1 |    0     2
+  ----|-----------
+     0|    1     4
+dest 2|    3     1
+     3|    8     3
+MAIN: rcv event, t=3.361, at 0 src: 1, dest: 0, contents:   1   0   1   3
+        更新node0==rtupdate0
+                via
+   D0 |    1     2    3
+  ----|-----------------
+     1|    1     4   999
+dest 2|    2     3     9
+     3|    4     5     7
+MAIN: rcv event, t=3.780, at 3 src: 0, dest: 3, contents:   0   1   2   7
+        未改变node3==rtupdate3
+             via
+   D3 |    0     2
+  ----|-----------
+     0|    7     5
+dest 1|    8     3
+     2|    9     2
+MAIN: rcv event, t=3.798, at 2 src: 3, dest: 2, contents:   7 999   2   0
+        未改变node2==rtupdate2
+                via
+   D2 |    0     1    3
+  ----|-----------------
+     0|    3     2     9
+dest 1|    4     1   999
+     3|   10   999     2
+MAIN: rcv event, t=3.915, at 0 src: 3, dest: 0, contents:   7   8   2   0
+        未改变node0==rtupdate0
+                via
+   D0 |    1     2    3
+  ----|-----------------
+     1|    1     4    15
+dest 2|    2     3     9
+     3|    4     5     7
+MAIN: rcv event, t=4.098, at 1 src: 0, dest: 1, contents:   0   1   2   5
+        未改变node1==rtupdate1
+             via
+   D1 |    0     2
+  ----|-----------
+     0|    1     4
+dest 2|    3     1
+     3|    6     3
+MAIN: rcv event, t=4.650, at 1 src: 2, dest: 1, contents:   2   1   0   2
+        未改变node1==rtupdate1
+             via
+   D1 |    0     2
+  ----|-----------
+     0|    1     3
+dest 2|    3     1
+     3|    6     3
+MAIN: rcv event, t=4.774, at 2 src: 1, dest: 2, contents:   1   0   1   8
+        未改变node2==rtupdate2
+                via
+   D2 |    0     1    3
+  ----|-----------------
+     0|    3     2     9
+dest 1|    4     1   999
+     3|   10     9     2
+MAIN: rcv event, t=5.464, at 3 src: 0, dest: 3, contents:   0   1   2   5
+        未改变node3==rtupdate3
+             via
+   D3 |    0     2
+  ----|-----------
+     0|    7     5
+dest 1|    8     3
+     2|    9     2
+MAIN: rcv event, t=5.640, at 0 src: 3, dest: 0, contents:   5   3   2   0
+        未改变node0==rtupdate0
+                via
+   D0 |    1     2    3
+  ----|-----------------
+     1|    1     4    10
+dest 2|    2     3     9
+     3|    4     5     7
+MAIN: rcv event, t=5.760, at 2 src: 1, dest: 2, contents:   1   0   1   3
+        未改变node2==rtupdate2
+                via
+   D2 |    0     1    3
+  ----|-----------------
+     0|    3     2     9
+dest 1|    4     1   999
+     3|   10     4     2
+MAIN: rcv event, t=6.212, at 1 src: 0, dest: 1, contents:   0   1   2   4
+        未改变node1==rtupdate1
+             via
+   D1 |    0     2
+  ----|-----------
+     0|    1     3
+dest 2|    3     1
+     3|    5     3
+MAIN: rcv event, t=6.315, at 3 src: 2, dest: 3, contents:   2   1   0   2
+        更新node3==rtupdate3
+             via
+   D3 |    0     2
+  ----|-----------
+     0|    7     4
+dest 1|    8     3
+     2|    9     2
+MAIN: rcv event, t=6.435, at 0 src: 2, dest: 0, contents:   2   1   0   2
+        未改变node0==rtupdate0
+                via
+   D0 |    1     2    3
+  ----|-----------------
+     1|    1     4    10
+dest 2|    2     3     9
+     3|    4     5     7
+MAIN: rcv event, t=6.771, at 2 src: 0, dest: 2, contents:   0   1   2   7
+        未改变node2==rtupdate2
+                via
+   D2 |    0     1    3
+  ----|-----------------
+     0|    3     2     9
+dest 1|    4     1   999
+     3|   10     4     2
+MAIN: rcv event, t=7.003, at 3 src: 0, dest: 3, contents:   0   1   2   4
+        未改变node3==rtupdate3
+             via
+   D3 |    0     2
+  ----|-----------
+     0|    7     4
+dest 1|    8     3
+     2|    9     2
+MAIN: rcv event, t=7.406, at 0 src: 3, dest: 0, contents:   4   3   2   0
+        未改变node0==rtupdate0
+                via
+   D0 |    1     2    3
+  ----|-----------------
+     1|    1     4    10
+dest 2|    2     3     9
+     3|    4     5     7
+MAIN: rcv event, t=7.650, at 2 src: 3, dest: 2, contents:   7   8   2   0
+        未改变node2==rtupdate2
+                via
+   D2 |    0     1    3
+  ----|-----------------
+     0|    3     2     9
+dest 1|    4     1    10
+     3|   10     4     2
+MAIN: rcv event, t=8.069, at 2 src: 0, dest: 2, contents:   0   1   2   5
+        未改变node2==rtupdate2
+                via
+   D2 |    0     1    3
+  ----|-----------------
+     0|    3     2     9
+dest 1|    4     1    10
+     3|    8     4     2
+MAIN: rcv event, t=9.377, at 2 src: 3, dest: 2, contents:   5   3   2   0
+        未改变node2==rtupdate2
+                via
+   D2 |    0     1    3
+  ----|-----------------
+     0|    3     2     7
+dest 1|    4     1     5
+     3|    8     4     2
+MAIN: rcv event, t=10.016, at 2 src: 0, dest: 2, contents:   0   1   2   4
+        未改变node2==rtupdate2
+                via
+   D2 |    0     1    3
+  ----|-----------------
+     0|    3     2     7
+dest 1|    4     1     5
+     3|    7     4     2
+MAIN: rcv event, t=11.030, at 2 src: 3, dest: 2, contents:   4   3   2   0
+        未改变node2==rtupdate2
+                via
+   D2 |    0     1    3
+  ----|-----------------
+     0|    3     2     6
+dest 1|    4     1     5
+     3|    7     4     2
+MAIN: rcv event, t=10000.000, at -1MAIN: rcv event, t=20000.000, at 11469136
+Simulator terminated at t=20000.000000, no packets in medium
+
+--------------------------------
+Process exited after 2.501 seconds with return value 62
+请按任意键继续. . .

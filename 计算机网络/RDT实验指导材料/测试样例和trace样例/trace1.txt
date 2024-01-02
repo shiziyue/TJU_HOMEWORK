@@ -1,0 +1,171 @@
+-----  Stop and Wait Network Simulator Version 1.1 --------
+
+Enter the number of messages to simulate: 10
+Enter  packet loss probability [enter 0.0 for no loss]:0.2
+Enter packet corruption probability [0.0 for no corruption]:0.2
+Enter average time between messages from sender's layer5 [ > 0.0]:1000
+Enter TRACE:2
+
+EVENT time: 93.569748,  type: 1, fromlayer5  entity: 0
+[Sender] Application data "aaaaaaaaaaaaaaaaaaaa" generated.
+[Sender] Packet 0 sent.
+
+EVENT time: 99.062195,  type: 2, fromlayer3  entity: 1
+[Receiver] Packet 0 received.
+[Receiver] Data "aaaaaaaaaaaaaaaaaaaa" handed over to application layer.
+[Receiver] ACK 0 sent.
+
+EVENT time: 101.561325,  type: 2, fromlayer3  entity: 0
+[Sender] ACK 0 received.
+
+EVENT time: 1607.715088,  type: 1, fromlayer5  entity: 0
+[Sender] Application data "bbbbbbbbbbbbbbbbbbbb" generated.
+[Sender] Packet 1 sent.
+
+EVENT time: 1609.116333,  type: 2, fromlayer3  entity: 1
+[Receiver] Packet 1 received.
+[Receiver] Data "bbbbbbbbbbbbbbbbbbbb" handed over to application layer.
+[Receiver] ACK 1 sent.
+
+EVENT time: 1614.552979,  type: 2, fromlayer3  entity: 0
+[Sender] ACK 1 received.
+
+EVENT time: 2322.031250,  type: 1, fromlayer5  entity: 0
+[Sender] Application data "cccccccccccccccccccc" generated.
+[Sender] Packet 0 sent.
+
+EVENT time: 2325.527344,  type: 2, fromlayer3  entity: 1
+[Receiver] Packet 0 received.
+[Receiver] Data "cccccccccccccccccccc" handed over to application layer.
+[Receiver] ACK 0 sent.
+
+EVENT time: 2328.412354,  type: 2, fromlayer3  entity: 0
+[Sender] ACK 0 received.
+
+EVENT time: 3332.804199,  type: 1, fromlayer5  entity: 0
+[Sender] Application data "dddddddddddddddddddd" generated.
+[Sender] Packet 1 sent.
+
+EVENT time: 3337.380615,  type: 2, fromlayer3  entity: 1
+[Receiver] Packet 1 received.
+[Receiver] Data "dddddddddddddddddddd" handed over to application layer.
+[Receiver] ACK 1 sent.
+
+EVENT time: 3345.409912,  type: 2, fromlayer3  entity: 0
+[Sender] ACK 1 received.
+
+EVENT time: 5057.893555,  type: 1, fromlayer5  entity: 0
+[Sender] Application data "eeeeeeeeeeeeeeeeeeee" generated.
+[Sender] Packet 0 sent.
+
+EVENT time: 5063.455078,  type: 2, fromlayer3  entity: 1
+[Receiver] Packet 0 received.
+[Receiver] Data "eeeeeeeeeeeeeeeeeeee" handed over to application layer.
+[Receiver] ACK 0 sent.
+          TOLAYER3: packet being lost
+
+EVENT time: 5087.893555,  type: 0, timerinterrupt   entity: 0
+[Sender] Timeout. Re-sending packet 0.
+
+EVENT time: 5093.841309,  type: 2, fromlayer3  entity: 1
+[Receiver] Corrupt packet received.
+[Receiver] Re-sending ACK 0.
+
+EVENT time: 5096.039063,  type: 2, fromlayer3  entity: 0
+[Sender] ACK 0 received.
+
+EVENT time: 5746.330078,  type: 1, fromlayer5  entity: 0
+[Sender] Application data "ffffffffffffffffffff" generated.
+[Sender] Packet 1 sent.
+
+EVENT time: 5747.367676,  type: 1, fromlayer5  entity: 0
+[Sender] Application data "gggggggggggggggggggg" generated.
+[Sender] The above application data discarded since waiting for ACK
+
+EVENT time: 5750.909180,  type: 2, fromlayer3  entity: 1
+[Receiver] Packet 1 received.
+[Receiver] Data "ffffffffffffffffffff" handed over to application layer.
+[Receiver] ACK 1 sent.
+          TOLAYER3: packet being corrupted
+
+EVENT time: 5759.888184,  type: 2, fromlayer3  entity: 0
+
+EVENT time: 5776.330078,  type: 0, timerinterrupt   entity: 0
+[Sender] Timeout. Re-sending packet 1.
+
+EVENT time: 5778.250000,  type: 2, fromlayer3  entity: 1
+[Receiver] Corrupt packet received.
+[Receiver] Re-sending ACK 1.
+          TOLAYER3: packet being corrupted
+
+EVENT time: 5787.884766,  type: 2, fromlayer3  entity: 0
+
+EVENT time: 5806.330078,  type: 0, timerinterrupt   entity: 0
+[Sender] Timeout. Re-sending packet 1.
+
+EVENT time: 5812.411621,  type: 2, fromlayer3  entity: 1
+[Receiver] Corrupt packet received.
+[Receiver] Re-sending ACK 1.
+
+EVENT time: 5816.963379,  type: 2, fromlayer3  entity: 0
+[Sender] ACK 1 received.
+
+EVENT time: 6231.452148,  type: 1, fromlayer5  entity: 0
+[Sender] Application data "hhhhhhhhhhhhhhhhhhhh" generated.
+          TOLAYER3: packet being corrupted
+[Sender] Packet 0 sent.
+
+EVENT time: 6239.164063,  type: 2, fromlayer3  entity: 1
+[Receiver] Corrupt packet received.
+[Receiver] Re-sending ACK 1.
+
+EVENT time: 6244.859863,  type: 2, fromlayer3  entity: 0
+[Sender] Corrupt ACK received.
+
+EVENT time: 6261.452148,  type: 0, timerinterrupt   entity: 0
+[Sender] Timeout. Re-sending packet 0.
+
+EVENT time: 6269.305664,  type: 2, fromlayer3  entity: 1
+[Receiver] Packet 0 received.
+[Receiver] Data "hhhhhhhhhhhhhhhhhhhh" handed over to application layer.
+[Receiver] ACK 0 sent.
+
+EVENT time: 6271.832031,  type: 2, fromlayer3  entity: 0
+[Sender] ACK 0 received.
+
+EVENT time: 6528.275391,  type: 1, fromlayer5  entity: 0
+[Sender] Application data "iiiiiiiiiiiiiiiiiiii" generated.
+          TOLAYER3: packet being lost
+[Sender] Packet 1 sent.
+
+EVENT time: 6558.275391,  type: 0, timerinterrupt   entity: 0
+[Sender] Timeout. Re-sending packet 1.
+          TOLAYER3: packet being lost
+
+EVENT time: 6588.275391,  type: 0, timerinterrupt   entity: 0
+[Sender] Timeout. Re-sending packet 1.
+          TOLAYER3: packet being lost
+
+EVENT time: 6618.275391,  type: 0, timerinterrupt   entity: 0
+[Sender] Timeout. Re-sending packet 1.
+          TOLAYER3: packet being lost
+
+EVENT time: 6648.275391,  type: 0, timerinterrupt   entity: 0
+[Sender] Timeout. Re-sending packet 1.
+
+EVENT time: 6649.436035,  type: 2, fromlayer3  entity: 1
+[Receiver] Packet 1 received.
+[Receiver] Data "iiiiiiiiiiiiiiiiiiii" handed over to application layer.
+[Receiver] ACK 1 sent.
+
+EVENT time: 6653.632324,  type: 2, fromlayer3  entity: 0
+[Sender] ACK 1 received.
+
+EVENT time: 8422.437500,  type: 1, fromlayer5  entity: 0
+[Sender] Application data "jjjjjjjjjjjjjjjjjjjj" generated.
+          TOLAYER3: packet being lost
+[Sender] Packet 0 sent.
+
+EVENT time: 8452.437500,  type: 0, timerinterrupt   entity: 0
+ Simulator terminated at time 8452.437500
+ after sending 10 msgs from layer5

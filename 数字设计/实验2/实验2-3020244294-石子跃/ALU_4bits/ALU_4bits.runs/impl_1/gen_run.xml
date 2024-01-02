@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a35tftg256-1" LaunchTime="1651982621">
+  <File Type="ROUTE-PWR" Name="ALU_4bits_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="ALU_4bits.tcl"/>
+  <File Type="BITSTR-BMM" Name="ALU_4bits_bd.bmm"/>
+  <File Type="ROUTE-PWR-SUM" Name="ALU_4bits_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="ALU_4bits_reports.tcl"/>
+  <File Type="OPT-DCP" Name="ALU_4bits_opt.dcp"/>
+  <File Type="OPT-DRC" Name="ALU_4bits_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="ALU_4bits.hwdef"/>
+  <File Type="PWROPT-DCP" Name="ALU_4bits_pwropt.dcp"/>
+  <File Type="PLACE-DCP" Name="ALU_4bits_placed.dcp"/>
+  <File Type="PLACE-IO" Name="ALU_4bits_io_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="ALU_4bits_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="ALU_4bits_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="ALU_4bits_control_sets_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="ALU_4bits_incremental_reuse_pre_placed.rpt"/>
+  <File Type="BG-BGN" Name="ALU_4bits.bgn"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="ALU_4bits_postplace_pwropt.dcp"/>
+  <File Type="BG-BIN" Name="ALU_4bits.bin"/>
+  <File Type="PHYSOPT-DCP" Name="ALU_4bits_physopt.dcp"/>
+  <File Type="BITSTR-MSK" Name="ALU_4bits.msk"/>
+  <File Type="ROUTE-ERROR-DCP" Name="ALU_4bits_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="ALU_4bits_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="ALU_4bits_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="ALU_4bits_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="ALU_4bits_drc_routed.pb"/>
+  <File Type="ROUTE-DRC-RPX" Name="ALU_4bits_drc_routed.rpx"/>
+  <File Type="BITSTR-LTX" Name="ALU_4bits.ltx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="ALU_4bits_methodology_drc_routed.rpt"/>
+  <File Type="BITSTR-MMI" Name="ALU_4bits.mmi"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="ALU_4bits_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="ALU_4bits_methodology_drc_routed.pb"/>
+  <File Type="BITSTR-SYSDEF" Name="ALU_4bits.sysdef"/>
+  <File Type="ROUTE-PWR-RPX" Name="ALU_4bits_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="ALU_4bits_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="ALU_4bits_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="ALU_4bits_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="ALU_4bits_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="ALU_4bits_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-CLK" Name="ALU_4bits_clock_utilization_routed.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="ALU_4bits_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="ALU_4bits_postroute_physopt_bb.dcp"/>
+  <File Type="BG-BIT" Name="ALU_4bits.bit"/>
+  <File Type="BITSTR-RBT" Name="ALU_4bits.rbt"/>
+  <File Type="BITSTR-NKY" Name="ALU_4bits.nky"/>
+  <File Type="BG-DRC" Name="ALU_4bits.drc"/>
+  <File Type="RDI-RDI" Name="ALU_4bits.vdi"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/imports/DLC/x7seg_d.edif">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../x7seg_d.edif"/>
+        <Attr Name="ImportTime" Val="1617953054"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/alu.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/fulladder.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/rca.sv">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/DLC/x7seg_d_port.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../x7seg_d_port.sv"/>
+        <Attr Name="ImportTime" Val="1617953185"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/DLC/ALU_4bits.sv">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../ALU_4bits.sv"/>
+        <Attr Name="ImportTime" Val="1617952398"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="ALU_4bits"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/imports/DLC/pin.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../pin.xdc"/>
+        <Attr Name="ImportTime" Val="1617892918"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2017"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream">
+      <Option Id="BinFile">1</Option>
+    </Step>
+  </Strategy>
+</GenRun>

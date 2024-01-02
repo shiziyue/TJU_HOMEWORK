@@ -1,0 +1,40 @@
+# Project: Routingnew
+# Makefile created by Dev-C++ 5.11
+
+CPP      = g++.exe
+CC       = gcc.exe
+WINDRES  = windres.exe
+OBJ      = Routing/Routingnew/node0.o Routing/Routingnew/node1.o Routing/Routingnew/node2.o Routing/Routingnew/node3.o Routing/Routingnew/prog3.o
+LINKOBJ  = Routing/Routingnew/node0.o Routing/Routingnew/node1.o Routing/Routingnew/node2.o Routing/Routingnew/node3.o Routing/Routingnew/prog3.o
+LIBS     = -L"D:/Dev-Cpp/MinGW64/lib" -L"D:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -static-libgcc
+INCS     = -I"D:/Dev-Cpp/MinGW64/include" -I"D:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include"
+CXXINCS  = -I"D:/Dev-Cpp/MinGW64/include" -I"D:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++"
+BIN      = Routingnew.exe
+CXXFLAGS = $(CXXINCS) 
+CFLAGS   = $(INCS) 
+RM       = rm.exe -f
+
+.PHONY: all all-before all-after clean clean-custom
+
+all: all-before $(BIN) all-after
+
+clean: clean-custom
+	${RM} $(OBJ) $(BIN)
+
+$(BIN): $(OBJ)
+	$(CC) $(LINKOBJ) -o $(BIN) $(LIBS)
+
+Routing/Routingnew/node0.o: Routing/Routingnew/node0.c
+	$(CC) -c Routing/Routingnew/node0.c -o Routing/Routingnew/node0.o $(CFLAGS)
+
+Routing/Routingnew/node1.o: Routing/Routingnew/node1.c
+	$(CC) -c Routing/Routingnew/node1.c -o Routing/Routingnew/node1.o $(CFLAGS)
+
+Routing/Routingnew/node2.o: Routing/Routingnew/node2.c
+	$(CC) -c Routing/Routingnew/node2.c -o Routing/Routingnew/node2.o $(CFLAGS)
+
+Routing/Routingnew/node3.o: Routing/Routingnew/node3.c
+	$(CC) -c Routing/Routingnew/node3.c -o Routing/Routingnew/node3.o $(CFLAGS)
+
+Routing/Routingnew/prog3.o: Routing/Routingnew/prog3.c
+	$(CC) -c Routing/Routingnew/prog3.c -o Routing/Routingnew/prog3.o $(CFLAGS)

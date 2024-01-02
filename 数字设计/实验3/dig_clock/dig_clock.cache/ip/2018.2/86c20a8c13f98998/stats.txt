@@ -1,0 +1,4 @@
+NumberHits:0
+Timestamp: Sun May 15 04:12:52 UTC 2022
+VLNV: xilinx.com:user:bin2bcd:1.0
+SynthRuntime: 24

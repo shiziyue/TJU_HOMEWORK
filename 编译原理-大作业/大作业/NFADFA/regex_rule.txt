@@ -1,0 +1,4 @@
+IDN:(`character`|`_`)(`digit`|`_`|`character`)*
+STR:`"`,(`character`|`digit`)*,`"`
+INT:(-)?`digit`,`digit`*
+FLOAT:(-)?`digit`,`digit`*,`.`,`digit`,`digit`*

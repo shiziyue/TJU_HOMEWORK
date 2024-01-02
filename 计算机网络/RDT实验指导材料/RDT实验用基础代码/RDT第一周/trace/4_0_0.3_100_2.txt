@@ -1,0 +1,88 @@
+the number of messages to simulate: 4
+packet loss probability: 0.000000
+packet corruption probability: 0.300000
+average time between messages from sender's layer5: 100.000000
+TRACE: 2
+
+EVENT time: 76.168999,  type: 1, fromlayer5  entity: 0
+  A_output 成功发送包,并开始记时: aaaaaaaaaaaaaaaaaaa
+
+EVENT time: 82.418297,  type: 2, fromlayer3  entity: 1
+  B_input 接收到包aaaaaaaaaaaaaaaaaaa
+  B_input 发送ACK
+          TOLAYER3: packet being corrupted
+
+EVENT time: 90.098885,  type: 2, fromlayer3  entity: 0
+  A_input corrupt错误:aaaaaaaaaaaaaaaaaaa
+
+EVENT time: 131.169006,  type: 0, timerinterrupt   entity: 0
+  A_timerinterrupt timeout 将重新发送 并开始计时: aaaaaaaaaaaaaaaaaaa.
+
+EVENT time: 134.461319,  type: 2, fromlayer3  entity: 1
+  B_input 序号错误 将发送NCK
+          TOLAYER3: packet being corrupted
+
+EVENT time: 135.907288,  type: 2, fromlayer3  entity: 0
+  A_input corrupt错误:aaaaaaaaaaaaaaaaaaa
+
+EVENT time: 186.169006,  type: 0, timerinterrupt   entity: 0
+  A_timerinterrupt timeout 将重新发送 并开始计时: aaaaaaaaaaaaaaaaaaa.
+
+EVENT time: 192.958115,  type: 2, fromlayer3  entity: 1
+  B_input 序号错误 将发送NCK
+          TOLAYER3: packet being corrupted
+
+EVENT time: 194.017181,  type: 2, fromlayer3  entity: 0
+  A_input corrupt错误:aaaaaaaaaaaaaaaaaaa
+
+EVENT time: 241.169006,  type: 0, timerinterrupt   entity: 0
+  A_timerinterrupt timeout 将重新发送 并开始计时: aaaaaaaaaaaaaaaaaaa.
+
+EVENT time: 249.414459,  type: 2, fromlayer3  entity: 1
+  B_input 序号错误 将发送NCK
+
+EVENT time: 250.464722,  type: 2, fromlayer3  entity: 0
+  A_input 接到ACK,解除停等,等待上层调用
+
+EVENT time: 270.719482,  type: 1, fromlayer5  entity: 0
+  A_output 成功发送包,并开始记时: bbbbbbbbbbbbbbbbbbb
+          TOLAYER3: packet being corrupted
+
+EVENT time: 279.476074,  type: 2, fromlayer3  entity: 1
+  B_input 接收到包bbbbbbbbbbbbbbbbbbb
+  B_input 发送ACK
+          TOLAYER3: packet being corrupted
+
+EVENT time: 287.045776,  type: 2, fromlayer3  entity: 0
+  A_input corrupt错误:bbbbbbbbbbbbbbbbbbb
+
+EVENT time: 325.719482,  type: 0, timerinterrupt   entity: 0
+  A_timerinterrupt timeout 将重新发送 并开始计时: bbbbbbbbbbbbbbbbbbb.
+
+EVENT time: 333.163818,  type: 2, fromlayer3  entity: 1
+  B_input 序号错误 将发送NCK
+
+EVENT time: 334.699280,  type: 2, fromlayer3  entity: 0
+  A_input 接到ACK,解除停等,等待上层调用
+
+EVENT time: 347.912598,  type: 1, fromlayer5  entity: 0
+  A_output 成功发送包,并开始记时: ccccccccccccccccccc
+
+EVENT time: 356.069550,  type: 2, fromlayer3  entity: 1
+  B_input 接收到包ccccccccccccccccccc
+  B_input 发送ACK
+
+EVENT time: 361.202667,  type: 2, fromlayer3  entity: 0
+  A_input 接到ACK,解除停等,等待上层调用
+
+EVENT time: 364.992157,  type: 1, fromlayer5  entity: 0
+  A_output 成功发送包,并开始记时: ddddddddddddddddddd
+
+EVENT time: 371.369904,  type: 2, fromlayer3  entity: 1
+  B_input 接收到包ddddddddddddddddddd
+  B_input 发送ACK
+
+EVENT time: 380.439453,  type: 2, fromlayer3  entity: 0
+  A_input 接到ACK,解除停等,等待上层调用
+ Simulator terminated at time 380.439453
+ after sending 4 msgs from layer5

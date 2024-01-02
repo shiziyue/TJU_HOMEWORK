@@ -1,0 +1,5 @@
+make.exe --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/cygdrive/c/Users/Ziyueshi/Desktop/大二下/软件工程/软件工程-3020244294-石子跃/面向对象/src'
+g++ main.cpp -o main
+make: Leaving directory '/cygdrive/c/Users/Ziyueshi/Desktop/大二下/软件工程/软件工程-3020244294-石子跃/面向对象/src'
+ 

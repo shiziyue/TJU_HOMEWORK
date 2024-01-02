@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Thu May 19 13:49:48 2022
+# Process ID: 6748
+# Current directory: D:/Huawei Share/dig_clock/dig_clock.runs/synth_1
+# Command line: vivado.exe -log dig_clock.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source dig_clock.tcl
+# Log file: D:/Huawei Share/dig_clock/dig_clock.runs/synth_1/dig_clock.vds
+# Journal file: D:/Huawei Share/dig_clock/dig_clock.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source dig_clock.tcl -notrace

@@ -1,0 +1,17 @@
+0.6
+2018.2
+Jun 14 2018
+20:41:02
+D:/Huawei Share/dig_clock/dig_clock.sim/sim_1/behav/xsim/glbl.v,1507081072,verilog,,,,glbl,,,,,,,,
+D:/Huawei Share/dig_clock/dig_clock.srcs/sim_1/new/dig_clock_tb.sv,1652895202,systemVerilog,,,,dig_clock_tb,,,,,,,,
+D:/Huawei Share/dig_clock/dig_clock.srcs/sim_1/new/tb1.sv,1652843427,systemVerilog,,,,tb1,,,,,,,,
+D:/Huawei Share/dig_clock/dig_clock.srcs/sources_1/ip/bin2bcd_0/bin2bcd.sv,1652587941,systemVerilog,,D:/Huawei Share/dig_clock/dig_clock.srcs/sources_1/ip/bin2bcd_0/sim/bin2bcd_0.sv,,bin2bcd,,,,,,,,
+D:/Huawei Share/dig_clock/dig_clock.srcs/sources_1/ip/bin2bcd_0/sim/bin2bcd_0.sv,1652587941,systemVerilog,,D:/Huawei Share/dig_clock/dig_clock.srcs/sources_1/new/D.sv,,bin2bcd_0,,,,,,,,
+D:/Huawei Share/dig_clock/dig_clock.srcs/sources_1/new/D.sv,1652843753,systemVerilog,,D:/Huawei Share/dig_clock/dig_clock.srcs/sources_1/new/D8.sv,,D,,,,,,,,
+D:/Huawei Share/dig_clock/dig_clock.srcs/sources_1/new/D8.sv,1652939107,systemVerilog,,D:/Huawei Share/dig_clock/dig_clock.srcs/sources_1/new/bianyan.sv,,D8,,,,,,,,
+D:/Huawei Share/dig_clock/dig_clock.srcs/sources_1/new/bianyan.sv,1652843859,systemVerilog,,D:/Huawei Share/dig_clock/dig_clock.srcs/sources_1/new/dig_clock.sv,,bianyan,,,,,,,,
+D:/Huawei Share/dig_clock/dig_clock.srcs/sources_1/new/dig_clock.sv,1652939312,systemVerilog,,D:/Huawei Share/dig_clock/dig_clock.srcs/sources_1/new/jisec.sv,,dig_clock,,,,,,,,
+D:/Huawei Share/dig_clock/dig_clock.srcs/sources_1/new/jisec.sv,1652939213,systemVerilog,,D:/Huawei Share/dig_clock/dig_clock.srcs/sources_1/new/jishi.sv,,jisec,,,,,,,,
+D:/Huawei Share/dig_clock/dig_clock.srcs/sources_1/new/jishi.sv,1652932840,systemVerilog,,D:/Huawei Share/dig_clock/dig_clock.srcs/sources_1/new/xian4.sv,,jishi,,,,,,,,
+D:/Huawei Share/dig_clock/dig_clock.srcs/sources_1/new/xian4.sv,1652932858,systemVerilog,,D:/Huawei Share/dig_clock/dig_clock.srcs/sources_1/new/xianshi.sv,,xian4,,,,,,,,
+D:/Huawei Share/dig_clock/dig_clock.srcs/sources_1/new/xianshi.sv,1652933959,systemVerilog,,D:/Huawei Share/dig_clock/dig_clock.srcs/sim_1/new/dig_clock_tb.sv,,xianshi,,,,,,,,

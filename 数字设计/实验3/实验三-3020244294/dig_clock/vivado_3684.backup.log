@@ -1,0 +1,43 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Sat May 21 20:55:16 2022
+# Process ID: 3684
+# Current directory: C:/Users/Ziyueshi/vivado/dig_clock
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent14268 C:\Users\Ziyueshi\vivado\dig_clock\dig_clock.xpr
+# Log file: C:/Users/Ziyueshi/vivado/dig_clock/vivado.log
+# Journal file: C:/Users/Ziyueshi/vivado/dig_clock\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Ziyueshi/vivado/dig_clock/dig_clock.xpr
+INFO: [Project 1-313] Project file moved from 'C:/Users/Ziyueshi/Desktop/大二下/数字设计/实验3/dig_clock' since last save.
+WARNING: [Project 1-312] File not found as 'C:/3/dig_clock/dig_clock.srcs/sources_1/bin2bcd_0_1/bin2bcd_0.xci'; using path 'C:/Users/Ziyueshi/Desktop/3/dig_clock/dig_clock.srcs/sources_1/bin2bcd_0_1/bin2bcd_0.xci' instead.
+Scanning sources...
+Finished scanning sources
+WARNING: [Project 1-312] File not found as 'C:/3/dig_clock/dig_clock.srcs/sources_1/bin2bcd_0_1/bin2bcd_0.xci'; using path 'C:/Users/Ziyueshi/Desktop/3/dig_clock/dig_clock.srcs/sources_1/bin2bcd_0_1/bin2bcd_0.xci' instead.
+WARNING: [Project 1-312] File not found as 'C:/3/dig_clock/dig_clock.srcs/sources_1/bin2bcd_0_1/bin2bcd_0.xci'; using path 'C:/Users/Ziyueshi/Desktop/3/dig_clock/dig_clock.srcs/sources_1/bin2bcd_0_1/bin2bcd_0.xci' instead.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Ziyueshi/vivado/dig_clock/bin2bcd'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Vivado/2018.2/data/ip'.
+WARNING: [IP_Flow 19-3664] IP 'bin2bcd_0' generated file not found 'c:/Users/Ziyueshi/Desktop/3/dig_clock/dig_clock.srcs/sources_1/bin2bcd_0_1/bin2bcd_0.dcp'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'bin2bcd_0' generated file not found 'c:/Users/Ziyueshi/Desktop/3/dig_clock/dig_clock.srcs/sources_1/bin2bcd_0_1/bin2bcd_0_stub.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'bin2bcd_0' generated file not found 'c:/Users/Ziyueshi/Desktop/3/dig_clock/dig_clock.srcs/sources_1/bin2bcd_0_1/bin2bcd_0_stub.vhdl'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'bin2bcd_0' generated file not found 'c:/Users/Ziyueshi/Desktop/3/dig_clock/dig_clock.srcs/sources_1/bin2bcd_0_1/bin2bcd_0_sim_netlist.v'. Please regenerate to continue.
+WARNING: [IP_Flow 19-3664] IP 'bin2bcd_0' generated file not found 'c:/Users/Ziyueshi/Desktop/3/dig_clock/dig_clock.srcs/sources_1/bin2bcd_0_1/bin2bcd_0_sim_netlist.vhdl'. Please regenerate to continue.
+update_compile_order -fileset sources_1
+reset_run bin2bcd_0_synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 3
+[Sat May 21 20:55:33 2022] Launched bin2bcd_0_synth_1...
+Run output will be captured here: C:/Users/Ziyueshi/vivado/dig_clock/dig_clock.runs/bin2bcd_0_synth_1/runme.log
+[Sat May 21 20:55:33 2022] Launched synth_1...
+Run output will be captured here: C:/Users/Ziyueshi/vivado/dig_clock/dig_clock.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 3
+[Sat May 21 20:56:46 2022] Launched impl_1...
+Run output will be captured here: C:/Users/Ziyueshi/vivado/dig_clock/dig_clock.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 3
+[Sat May 21 20:57:51 2022] Launched impl_1...
+Run output will be captured here: C:/Users/Ziyueshi/vivado/dig_clock/dig_clock.runs/impl_1/runme.log
+exit
+INFO: [Common 17-206] Exiting Vivado at Sat May 21 22:51:31 2022...

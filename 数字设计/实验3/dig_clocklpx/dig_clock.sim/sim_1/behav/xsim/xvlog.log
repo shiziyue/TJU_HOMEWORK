@@ -1,0 +1,22 @@
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Huawei Share/dig_clock/dig_clock.srcs/sources_1/new/D.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module D
+WARNING: [VRFC 10-1315] redeclaration of ansi port Q is not allowed [D:/Huawei Share/dig_clock/dig_clock.srcs/sources_1/new/D.sv:28]
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Huawei Share/dig_clock/dig_clock.srcs/sources_1/new/D8.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module D8
+WARNING: [VRFC 10-1315] redeclaration of ansi port m is not allowed [D:/Huawei Share/dig_clock/dig_clock.srcs/sources_1/new/D8.sv:30]
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Huawei Share/dig_clock/dig_clock.srcs/sources_1/new/bianyan.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bianyan
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Huawei Share/dig_clock/dig_clock.srcs/sources_1/new/dig_clock.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dig_clock
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Huawei Share/dig_clock/dig_clock.srcs/sources_1/new/jisec.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module jisec
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Huawei Share/dig_clock/dig_clock.srcs/sources_1/new/jishi.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module jishi
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Huawei Share/dig_clock/dig_clock.srcs/sources_1/new/xian4.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xian4
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Huawei Share/dig_clock/dig_clock.srcs/sources_1/new/xianshi.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xianshi
+WARNING: [VRFC 10-1315] redeclaration of ansi port a is not allowed [D:/Huawei Share/dig_clock/dig_clock.srcs/sources_1/new/xianshi.sv:31]
+WARNING: [VRFC 10-1315] redeclaration of ansi port b is not allowed [D:/Huawei Share/dig_clock/dig_clock.srcs/sources_1/new/xianshi.sv:32]
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/Huawei Share/dig_clock/dig_clock.srcs/sim_1/new/dig_clock_tb.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dig_clock_tb

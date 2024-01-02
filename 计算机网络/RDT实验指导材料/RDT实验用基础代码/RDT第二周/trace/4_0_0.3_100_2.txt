@@ -1,0 +1,102 @@
+the number of messages to simulate: 4
+packet loss probability: 0.000000
+packet corruption probability: 0.300000
+average time between messages from sender's layer5: 100.000000
+TRACE: 2
+
+EVENT time: 76.168999,  type: 1, fromlayer5  entity: 0
+ A_output: 发送:seq= 1, aaaaaaaaaaaaaaaaaaa
+
+EVENT time: 82.418297,  type: 2, fromlayer3  entity: 1
+  B_input: 接受到包 (seq=1): aaaaaaaaaaaaaaaaaaa
+  B_input: 发送 ACK (ack=1)
+          TOLAYER3: packet being corrupted
+
+EVENT time: 90.098885,  type: 2, fromlayer3  entity: 0
+  A_input: 包冲突 丢掉. drop.
+
+EVENT time: 91.168999,  type: 0, timerinterrupt   entity: 0
+  A_timerinterrupt: 重新发送包 (seq=1): aaaaaaaaaaaaaaaaaaa
+
+EVENT time: 94.461304,  type: 2, fromlayer3  entity: 1
+  B_input: 不是期待的顺序. 发送 NAK (ack=1)
+          TOLAYER3: packet being corrupted
+
+EVENT time: 95.907265,  type: 2, fromlayer3  entity: 0
+  A_input: 包冲突 丢掉. drop.
+
+EVENT time: 106.168999,  type: 0, timerinterrupt   entity: 0
+  A_timerinterrupt: 重新发送包 (seq=1): aaaaaaaaaaaaaaaaaaa
+
+EVENT time: 112.958107,  type: 2, fromlayer3  entity: 1
+  B_input: 不是期待的顺序. 发送 NAK (ack=1)
+          TOLAYER3: packet being corrupted
+
+EVENT time: 114.017181,  type: 2, fromlayer3  entity: 0
+  A_input: 包冲突 丢掉. drop.
+
+EVENT time: 121.168999,  type: 0, timerinterrupt   entity: 0
+  A_timerinterrupt: 重新发送包 (seq=1): aaaaaaaaaaaaaaaaaaa
+
+EVENT time: 129.414444,  type: 2, fromlayer3  entity: 1
+  B_input: 不是期待的顺序. 发送 NAK (ack=1)
+
+EVENT time: 130.464706,  type: 2, fromlayer3  entity: 0
+  A_input: 接收 ACK (ack=1)
+  A_input: stop_timer
+
+EVENT time: 270.719482,  type: 1, fromlayer5  entity: 0
+          TOLAYER3: packet being corrupted
+ A_output: 发送:seq= 2, bbbbbbbbbbbbbbbbbbb
+
+EVENT time: 279.476074,  type: 2, fromlayer3  entity: 1
+  B_input: 接受到包 (seq=2): bbbbbbbbbbbbbbbbbbb
+  B_input: 发送 ACK (ack=2)
+          TOLAYER3: packet being corrupted
+
+EVENT time: 285.719482,  type: 0, timerinterrupt   entity: 0
+  A_timerinterrupt: 重新发送包 (seq=2): bbbbbbbbbbbbbbbbbbb
+
+EVENT time: 287.045776,  type: 2, fromlayer3  entity: 0
+  A_input: 包冲突 丢掉. drop.
+
+EVENT time: 293.163818,  type: 2, fromlayer3  entity: 1
+  B_input: 不是期待的顺序. 发送 NAK (ack=2)
+
+EVENT time: 294.699280,  type: 2, fromlayer3  entity: 0
+  A_input: 接收 ACK (ack=2)
+  A_input: stop_timer
+
+EVENT time: 347.912598,  type: 1, fromlayer5  entity: 0
+ A_output: 发送:seq= 3, ccccccccccccccccccc
+
+EVENT time: 356.069550,  type: 2, fromlayer3  entity: 1
+  B_input: 接受到包 (seq=3): ccccccccccccccccccc
+  B_input: 发送 ACK (ack=3)
+
+EVENT time: 361.202667,  type: 2, fromlayer3  entity: 0
+  A_input: 接收 ACK (ack=3)
+  A_input: stop_timer
+
+EVENT time: 364.992157,  type: 1, fromlayer5  entity: 0
+ A_output: 发送:seq= 4, ddddddddddddddddddd
+
+EVENT time: 371.369904,  type: 2, fromlayer3  entity: 1
+  B_input: 接受到包 (seq=4): ddddddddddddddddddd
+  B_input: 发送 ACK (ack=4)
+
+EVENT time: 379.992157,  type: 0, timerinterrupt   entity: 0
+  A_timerinterrupt: 重新发送包 (seq=4): ddddddddddddddddddd
+
+EVENT time: 380.439453,  type: 2, fromlayer3  entity: 0
+  A_input: 接收 ACK (ack=4)
+  A_input: stop_timer
+
+EVENT time: 387.880310,  type: 2, fromlayer3  entity: 1
+  B_input: 不是期待的顺序. 发送 NAK (ack=4)
+          TOLAYER3: packet being corrupted
+
+EVENT time: 396.176453,  type: 2, fromlayer3  entity: 0
+  A_input: 包冲突 丢掉. drop.
+ Simulator terminated at time 396.176453
+ after sending 4 msgs from layer5

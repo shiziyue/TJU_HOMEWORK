@@ -1,0 +1,7 @@
+sv xil_defaultlib  \
+"../../../../vend_machine.srcs/sources_1/ip/bin2bcd_0/bin2bcd.sv" \
+"../../../../vend_machine.srcs/sources_1/ip/bin2bcd_0/sim/bin2bcd_0.sv" \
+
+verilog xil_defaultlib "glbl.v"
+
+nosort

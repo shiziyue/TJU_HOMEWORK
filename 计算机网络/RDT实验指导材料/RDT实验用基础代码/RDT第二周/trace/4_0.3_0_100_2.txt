@@ -1,0 +1,66 @@
+the number of messages to simulate: 4
+packet loss probability: 0.300000
+packet corruption probability: 0.000000
+average time between messages from sender's layer5: 100.000000
+TRACE: 2
+
+EVENT time: 76.168999,  type: 1, fromlayer5  entity: 0
+ A_output: 发送:seq= 1, aaaaaaaaaaaaaaaaaaa
+
+EVENT time: 82.418297,  type: 2, fromlayer3  entity: 1
+  B_input: 接受到包 (seq=1): aaaaaaaaaaaaaaaaaaa
+  B_input: 发送 ACK (ack=1)
+
+EVENT time: 90.098885,  type: 2, fromlayer3  entity: 0
+  A_input: 接收 ACK (ack=1)
+  A_input: stop_timer
+
+EVENT time: 270.719482,  type: 1, fromlayer5  entity: 0
+ A_output: 发送:seq= 2, bbbbbbbbbbbbbbbbbbb
+
+EVENT time: 274.011780,  type: 2, fromlayer3  entity: 1
+  B_input: 接受到包 (seq=2): bbbbbbbbbbbbbbbbbbb
+  B_input: 发送 ACK (ack=2)
+
+EVENT time: 275.457733,  type: 2, fromlayer3  entity: 0
+  A_input: 接收 ACK (ack=2)
+  A_input: stop_timer
+
+EVENT time: 279.667725,  type: 1, fromlayer5  entity: 0
+ A_output: 发送:seq= 3, ccccccccccccccccccc
+
+EVENT time: 286.456818,  type: 2, fromlayer3  entity: 1
+  B_input: 接受到包 (seq=3): ccccccccccccccccccc
+  B_input: 发送 ACK (ack=3)
+          TOLAYER3: packet being lost
+
+EVENT time: 294.667725,  type: 0, timerinterrupt   entity: 0
+  A_timerinterrupt: 重新发送包 (seq=3): ccccccccccccccccccc
+          TOLAYER3: packet being lost
+
+EVENT time: 309.667725,  type: 0, timerinterrupt   entity: 0
+  A_timerinterrupt: 重新发送包 (seq=3): ccccccccccccccccccc
+          TOLAYER3: packet being lost
+
+EVENT time: 324.667725,  type: 0, timerinterrupt   entity: 0
+  A_timerinterrupt: 重新发送包 (seq=3): ccccccccccccccccccc
+
+EVENT time: 326.152618,  type: 2, fromlayer3  entity: 1
+  B_input: 不是期待的顺序. 发送 NAK (ack=3)
+
+EVENT time: 333.453522,  type: 2, fromlayer3  entity: 0
+  A_input: 接收 ACK (ack=3)
+  A_input: stop_timer
+
+EVENT time: 373.607361,  type: 1, fromlayer5  entity: 0
+ A_output: 发送:seq= 4, ddddddddddddddddddd
+
+EVENT time: 378.081055,  type: 2, fromlayer3  entity: 1
+  B_input: 接受到包 (seq=4): ddddddddddddddddddd
+  B_input: 发送 ACK (ack=4)
+
+EVENT time: 379.562561,  type: 2, fromlayer3  entity: 0
+  A_input: 接收 ACK (ack=4)
+  A_input: stop_timer
+ Simulator terminated at time 379.562561
+ after sending 4 msgs from layer5

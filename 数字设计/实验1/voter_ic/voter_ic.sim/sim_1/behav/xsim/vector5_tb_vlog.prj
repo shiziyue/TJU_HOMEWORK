@@ -1,0 +1,12 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  \
+"../../../../voter_ic.srcs/sources_1/new/dec_74LS138.sv" \
+"../../../../voter_ic.srcs/sources_1/new/dec_74LS139.sv" \
+"../../../../voter_ic.srcs/sources_1/new/voter5.sv" \
+"../../../../voter_ic.srcs/sim_1/new/vector5_tb.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

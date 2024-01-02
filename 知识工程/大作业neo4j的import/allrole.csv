@@ -1,0 +1,116 @@
+:START_ID,:TYPE,:END_ID
+肖迁,属于,电气自动化与信息工程学院
+孙美君,属于,智能与计算学部
+范秋筠,属于,精密仪器与光电子工程学院
+廖士中,属于,智能与计算学部
+金弟,属于,智能与计算学部
+党建武,属于,智能与计算学部
+郭玙,属于,生物医学工程学院
+饶国政,属于,智能与计算学部
+陈保军,属于,机械工程学院
+王树新,属于,机械工程学院
+"肖迁",发表,"Dual-layer modulated model predictive control scheme for the cascaded H-bridge converter"
+"肖迁",发表,"Space-vector-equalized predictive current control scheme for the modular multilevel converter with improved steady-state performance"
+"肖迁",发表,"Decoupled control scheme for THD reduction and one specific harmonic elimination in the modular multilevel converter"
+"肖迁",发表,"一种多端口交直流混合微电网系统的能量控制方法"
+"肖迁",发表,"一种多端口中低压交直流混合微电网的能量分层控制方法"
+"肖迁",发表,"DC Capacitor Voltage Balancing Control Method Under Single-Phase Grid Fault"
+"范秋筠","发表","Mapping the Human Connectome using Diffusion MRI at 300 mT/m Gradient Strength: Methodological Advances and Scientific Impact"
+"范秋筠","发表","Scan-rescan repeatability of axonal imaging metrics using high-gradient diffusion MRI and statistical implications for study design"
+"范秋筠","发表","Axon diameter index estimation independent of fiber orientation distribution using high-gradient diffusion MRI"
+"范秋筠","发表","Age-related alterations in axonal microstructure in the corpus callosum measured by high-gradient diffusion MRI"
+"范秋筠","发表","Validation of diffusion MRI estimates of compartment size and volume fraction in a biomimetic brain phantom using a human MRI scanner with 300 mT/m maximum gradient strength"
+"范秋筠","发表","HIgh b-value and high Resolution Integrated Diffusion (HIBRID) imaging"
+"金弟","发表","A stochastic model for the detection of heterogeneous link communities in complex networks"
+"金弟","发表","Identification of hybrid node and link communities in complex networks"
+"金弟","发表","Modeling with node degree preservation can accurately find communities"
+"金弟","发表","Combined node and link partitions method for finding overlapping communities in complex networks"
+"金弟","发表","Detect overlapping communities via modeling and ranking node popularities"
+"金弟","发表","Joint Identification of Network Communities and Semantics via Integrative Modeling of Network Topologies and Node Contents"
+"党建武","发表","An Exploratory Study of Enhancing Text Clustering with Auto-Generated Semantic Tags[C]//Eighth International Conference on Semantics"
+"党建武","发表","A COMPOUND OF FORMULA"
+"党建武","发表","EGFR Signaling Through an Akt-SREBP-1-Dependent, Rapamycin-Resistant Pathway Sensitizes Glioblastomas to Antilipogenic Therapy"
+"党建武","发表","A study of the influence of lanthanum fluoride on the tribological properties of bonded solid film lubricants and its mechanism of function"
+"党建武","发表","Study on Treating DMF Containing Wastewater by Solvent Extraction-Activated Carbon Adsorption"
+"党建武","发表","Combination of links and node contents for community discovery using a graph regularization approach"
+"党建武","发表","Word Semantic Similarity Calculation Based on Domain Knowledge and HowNet"
+"党建武","发表","A study on transvelar coupling for non-nasalized sounds"
+"郭玙","发表","Contrast-Enhanced Spectral Mammography-Based Prediction of Non-Sentinel Lymph Node Metastasis and Axillary Tumor Burden in Patients With Breast Cancer"
+"郭玙","发表","Deep disentangled representation learning of PET images for lymphoma outcome prediction"
+"郭玙","发表","Multi-Atlas Based Adaptive Active Contour Model with Application to Organs at Risk Segmentation in Brain MR Images"
+"郭玙","发表","Prostate cancer segmentation from multiparametric MRI based on fuzzy Bayesian model."
+"郭玙","发表","Localization of prostate cancer based on fuzzy information fusion of multispectral MRI"
+"郭玙","发表","一种系统化放射治疗生物效应评估方法"
+"饶国政","发表","LSTM with sentence representations for Document-level Sentiment Classification"
+"饶国政","发表","PRSPR: An Adaptive Framework for Massive RDF Stream Reasoning"
+"饶国政","发表","X-A-BiLSTM: a Deep Learning Approach for Depression Detection in Imbalanced Data"
+"饶国政","发表","Constructing Biomedical Knowledge Graph Based on SemMedDB and Linked Open Data"
+"饶国政","发表","Renhai Chen and Zhiyong Feng. Hash Tree Indexing for Fast SPARQL Query in Large Scale RDF Data Management Systems"
+"饶国政","发表","DFDS: A Domain-Independent Framework for Document-Level Sentiment Analysis based on RST"
+"陈保军","发表","A novel jamming structure with interlocking mechanism towards applications in wearable robots"
+"陈保军","发表","A wearable hands-free human-robot interface for robotized flexible endoscope"
+"陈保军","发表","A novel 3-DOF force sensing microneedle with integrated fiber Bragg grating for microsurgery"
+"陈保军","发表","A novel haptic master manipulator with a pneumatic-electric mechanism for natural orifice transluminal endoscopic surgery"
+"陈保军","发表","Classification of lifting techniques for application of a robotic hip exoskeleton"
+"陈保军","发表","A real-time lift detection strategy for a hip exoskeleton"
+"王树新","发表","Kinematics Analysis of the Coupled Tendon-Driven Robot Based on the Product-of-Exponentials Formula Mechanism and Machine Theorynull"
+"王树新","发表","Motion Characteristic Analysis of a Hybrid-Driven Underwater Glider null"
+"王树新","发表","A Novel Knot-tying Approach for Minimally Invasive Surgical Robot Systems The International Journal of Medical Robotics and Computer Assisted Surgerynull"
+"王树新","发表","Dynamic Modeling of Flexible Multibody Systems with Parameter Uncertainty Chaos Solitons & Fractalsnull"
+"肖迁","开展进行","多个混合型MMC互联的中压直流配电网多元抗扰控制方法研究"
+"肖迁","开展进行","综合能源系统的稳定性与运行优化"
+"肖迁","开展进行","基于边云协同的区域能源互联网优化运行智能理论与关键技术"
+"孙美君","开展进行","敦煌壁画建筑信息识别系统"
+"孙美君","开展进行","渤海造船厂开展焊缝缺陷检测项目"
+"孙美君","开展进行","社会信息融合的客户侧用能系统关键特征信息提取技术研究"
+"孙美君","开展进行","基于机器学习的焊接缺陷自动判读技术研究"
+"孙美君","开展进行","基于CPSS的客户侧边缘感知与能源控制技术研究"
+"孙美君","开展进行","基于显著性的主动学习方法研究及其在医疗影像分析中的应用"
+"孙美君","开展进行","面向癌症检测的小样本高光谱图像分类理论研究"
+"范秋筠","开展进行","面向急性脑卒中微结构成像的HIBRID深度学习加速方法"
+"范秋筠","开展进行","TractCaliber MRI for Characterizing Axonal Damage in Ischemic Stroke"
+"范秋筠","开展进行","HIBRID MRI for Characterizing Focal Cortical Dysplasia in Epilepsy"
+"廖士中","开展进行","定性与定量空间推理方法研究"
+"廖士中","开展进行","定性计算机视觉方法研究"
+"廖士中","开展进行","基于定型推理的视频内容检索技术"
+"廖士中","开展进行","定性物理形状表示方法研究"
+"廖士中","开展进行","计算机视觉的定性计算理论与方法研究"
+"廖士中","开展进行","图模型的近似计算理论及其在草图人机界面中的应用"
+"金弟","开展进行","Big Social Media Data Management and Analysis"
+"金弟","开展进行","SPCs in AAAI 2018-2022 and IJCAI 2021-2022, and PCs of ICML, NeurIPS, KDD and WWW"
+"金弟","开展进行","Pattern Recognition Special issue on “Graph Machine Learning”"
+"金弟","开展进行","Big Data Special Issue on “Network structural modelling & learning”"
+"金弟","开展进行","Future Generation Computer Systems Special Issue on “Graph-Powered Machine Learning”"
+"郭玙","开展进行","人体状态测试"
+"郭玙","开展进行","多体素核磁共振谱量化估计新方法及其辅助肿瘤识别方法的研究"
+"郭玙","开展进行","多体素核磁共振谱辅助肿瘤定位相关算法的研究"
+"饶国政","开展进行","精细化质量管理示范研究"
+"饶国政","开展进行","过程质量风险建模与评价研究"
+"饶国政","开展进行","面向异构数据库的查询语言设计及其基础理论研究"
+"饶国政","开展进行","配电网多元化负荷运行响应大数据分析"
+"饶国政","开展进行","图数据管理关键技术及系统"
+"陈保军","开展进行","经口入路颅颌面肿瘤切除柔性手术机器人"
+"王树新","开展进行","海洋技术装备创新服务平台"
+"王树新","开展进行","安全性驱动的微创手术机器人互作用机理与系统评估方法"
+"王树新","开展进行","微创器械创成与实现方法研究"
+"王树新","开展进行","腹腔镜手术辅助机器人开发"
+"王树新","开展进行","微创外科手术机器人动力学行为与系统设计方法研究"
+肖迁,讲授,专业综合实验
+孙美君,讲授,多媒体应用技术
+范秋筠,讲授,计算机视觉与智能医学图像处理
+范秋筠,讲授,"Medical Imaging & Imaging Data Analysis"
+廖士中,讲授,人工智能基础
+廖士中,讲授,离散数学
+廖士中,讲授,计算理论
+廖士中,讲授,机器学习
+金弟,讲授,数据结构
+金弟,讲授,人工智能基础
+郭玙,讲授,生物医学信号处理
+郭玙,讲授,生物医学工程实验
+郭玙,讲授,医学影像物理学
+饶国政,讲授,软件工程
+王树新,讲授,现代控制理论与应用
+王树新,讲授,高等动力学
+王树新,讲授,控制工程基础
+陈保军,讲授,工程制图基础3
+陈保军,讲授,工程图学2A

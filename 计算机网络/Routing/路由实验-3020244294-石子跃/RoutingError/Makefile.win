@@ -1,0 +1,40 @@
+# Project: RoutingError
+# Makefile created by Dev-C++ 5.11
+
+CPP      = g++.exe
+CC       = gcc.exe
+WINDRES  = windres.exe
+OBJ      = node0.o node1.o node2.o node3.o prog3.o
+LINKOBJ  = node0.o node1.o node2.o node3.o prog3.o
+LIBS     = -L"D:/Dev-Cpp/MinGW64/lib" -L"D:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -static-libgcc
+INCS     = -I"D:/Dev-Cpp/MinGW64/include" -I"D:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include"
+CXXINCS  = -I"D:/Dev-Cpp/MinGW64/include" -I"D:/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"D:/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++"
+BIN      = RoutingError.exe
+CXXFLAGS = $(CXXINCS) 
+CFLAGS   = $(INCS) 
+RM       = rm.exe -f
+
+.PHONY: all all-before all-after clean clean-custom
+
+all: all-before $(BIN) all-after
+
+clean: clean-custom
+	${RM} $(OBJ) $(BIN)
+
+$(BIN): $(OBJ)
+	$(CC) $(LINKOBJ) -o $(BIN) $(LIBS)
+
+node0.o: node0.c
+	$(CC) -c node0.c -o node0.o $(CFLAGS)
+
+node1.o: node1.c
+	$(CC) -c node1.c -o node1.o $(CFLAGS)
+
+node2.o: node2.c
+	$(CC) -c node2.c -o node2.o $(CFLAGS)
+
+node3.o: node3.c
+	$(CC) -c node3.c -o node3.o $(CFLAGS)
+
+prog3.o: prog3.c
+	$(CC) -c prog3.c -o prog3.o $(CFLAGS)
